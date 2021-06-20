@@ -19,3 +19,9 @@ Palette                         : (Binary data 768 bytes, use -b option to extra
 ```
 
 Immediately, the 8-bit colormap/palette jump out as potential flag spots. When I extracted this binary data however, it seemed like gibberish, so I tried using [stegonline](https://stegonline.georgeom.net/image), which is a great website to use for images like this. Once we upload the file, we're told this.
+
+![](stegonlineinput.png)
+
+If we click browse colour pallette, we can immediately see the flag appear in the preview. Once we download the image, we can get the flag.
+
+
