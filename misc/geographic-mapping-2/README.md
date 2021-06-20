@@ -15,7 +15,7 @@ The challenge author will not confirm individual locations, nor check your decim
 Read disclosure from previous geographic challenge.
 
 ### Picture 1
-We can see the name of the store, `Fabrica de Cervesa Artesanal`. Googling this, I got nothing; then, I added "alpha", which is shown to the right on the sign. Then, we get an exact location from Google Maps for the bar as shown below in `Andorra`. After some fiddling with the multiple photospheres, we get the coordinates `(42.569, 1.49)`
+We can see the name of the store, `Fabrica de Cervesa Artesanal`. Googling this, I got nothing; then, I added "alpha", which is shown to the right on the sign. Then, we get an exact location from Google Maps for the bar as shown below in `Andorra`. After some fiddling with the multiple photospheres, we get the coordinates `(42.569, 1.489)`
 
 ![](googleresult.png)
 
@@ -34,4 +34,4 @@ Again, this looks like a major European city due to the architecture and the lic
 With some more googling to find the exact Gothic church (Matthias Church), we can find the location, and then use street view on the opposite side of the river to match up with the red car, giving us the coordinates `(47.505, 19.045)`.
 
 ## Flag
-
+`flag{42.569,1.489,53.62,11.41,47.505,19.045}`
