@@ -22,6 +22,11 @@ Immediately, the 8-bit colormap/palette jump out as potential flag spots. When I
 
 ![](stegonlineinput.png)
 
-If we click browse colour pallette, we can immediately see the flag appear in the preview. Once we download the image, we can get the flag.
+If we click browse colour pallette, the flag appears in the preview. Once we download the image, we can get the flag with a bit of guesswork for the iffy characters. 
+
+![](flag.png)
+
+## Flag
+`flag{plte_chunks_remind_me_of_gifs}`
 
 
