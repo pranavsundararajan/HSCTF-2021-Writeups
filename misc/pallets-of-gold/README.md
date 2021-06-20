@@ -18,7 +18,7 @@ Interlace                       : Noninterlaced
 Palette                         : (Binary data 768 bytes, use -b option to extract)
 ```
 
-Immediately, the 8-bit colormap/palette jump out as potential flag spots. When I extracted this binary data however, it seemed like gibberish, so I tried using [stegonline](https://stegonline.georgeom.net/image), which is a great website to use for images like this. Once we upload the file, we're told this.
+Immediately, the 8-bit colormap/palette jumps out. When I extracted this binary data however, it seemed like gibberish, so I tried using [stegonline](https://stegonline.georgeom.net/image), which is a great website to use for images like this. Once we upload the file, we're told this.
 
 ![](stegonlineinput.png)
 
