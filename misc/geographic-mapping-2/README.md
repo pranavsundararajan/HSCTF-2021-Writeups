@@ -9,7 +9,21 @@ Example format: flag{12.862,48.066,-13.47,-48.37,-13.477,-48.376}. Picture 2 has
 
 The challenge author will not confirm individual locations, nor check your decimal digits. Three decimal digits gives a range of ~111 meters.
 
+![](picture1.png) ![](picture2.png) ![](picture3.png)
+
 ## Solution
 Read disclosure from previous geographic challenge.
 
 ### Picture 1
+We can see the name of the store, `Fabrica de Cervesa Artesanal`. Googling this, I got nothing; then, I added "alpha", which is shown to the right on the sign. Then, we get an exact location from Google Maps for the bar as shown below. After some fiddling with the multiple photospheres, we get the coordinates `(42.569, 1.49)`
+
+![](googleresult.png)
+
+### Picture 2
+We can see a castle, so I assumed that we're in Europe (also the general feel from experience). The main characteristics are: the golden dome on the castle, the white frame walkway, empty green flat area, and water (river/stream?). I initially searched for the white frame walkway, but then Googled the golden dome. Looking at Google Images, our top results are Castle Howard, Schwerin Castle, and Wawel Castle. Now, we can check on Google Maps; Castle Howard doesn't have the water nor the walkway, and Wawel Castle is by water but has no large green field since it's crowded in the city. Schwerin Castle is quite promising as shown below due to the water and green areas.
+
+![](googleview.jpg)
+
+We can check all the green areas around, and we find that the photosphere directly in the center of the rectangle field is the correct one, thus getting us the coordinates `(53.62, 11.41)` 
+
+### Picture 3
